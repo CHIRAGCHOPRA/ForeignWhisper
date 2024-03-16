@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04A42575-EE52-526D-1052-D490D0D11C2E" name="EMPLOYEE">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:19:51 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A765B1A1-FB5B-28C6-C22C-966CD2A32B0B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>BD46B282-F1EE-7AD6-16FD-1DF41E7311F7</discriminatorAttributeID>
+<discriminatorValue>E</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPLOYEEID" id="9A4977B3-4824-1777-7340-DBA1654DB1EA">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:25:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[EMP ID]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HIREDATE" id="F6680E28-3979-6139-D57E-B92B478CAFCA">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:22:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[HIREDATE]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARY" id="58587010-A9B8-ED6A-40C7-885BA1C35C37">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:24:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[SALARY]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNAME" id="95FD4F35-1207-BCE7-E611-D34F58773B8F">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:24:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[DEPARTMENT NAME]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ETYPE" id="BD46B282-F1EE-7AD6-16FD-1DF41E7311F7">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 02:04:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[SDDFDS]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="056ED7B1-49C1-EB74-C5C3-92F4FD6884C2" name="EMPLOYEE PK">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:25:55 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A4977B3-4824-1777-7340-DBA1654DB1EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

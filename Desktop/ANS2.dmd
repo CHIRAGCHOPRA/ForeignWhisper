@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ANS2" id="B687DAD2-51DC-9F42-7E08-14BF8CEC6889" version="3.5">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:10:11 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B687DAD2-51DC-9F42-7E08-14BF8CEC6889</designId>
+</OSDM_Design>

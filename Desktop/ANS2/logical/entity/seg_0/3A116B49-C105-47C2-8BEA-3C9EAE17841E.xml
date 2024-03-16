@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A116B49-C105-47C2-8BEA-3C9EAE17841E" name="GRAD">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:32:30 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>67B14960-D526-A635-5F05-00DEE24F34E6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>G</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GRADMAJOR" id="750CACC4-4AB9-7C58-716A-CD1EF8E350B8">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:33:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[GRAD MAJOR]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

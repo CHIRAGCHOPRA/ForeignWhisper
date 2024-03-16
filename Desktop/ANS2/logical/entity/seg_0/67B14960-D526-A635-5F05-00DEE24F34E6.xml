@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67B14960-D526-A635-5F05-00DEE24F34E6" name="STUDENT">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:20:06 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A765B1A1-FB5B-28C6-C22C-966CD2A32B0B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>6E81FD79-66BE-DA5E-C96F-051B8093C565</discriminatorAttributeID>
+<discriminatorValue>S</discriminatorValue>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENTID" id="780B1252-DF92-93C7-BC11-1C79178F7348">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:26:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[STUDENT ID]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UNDERGRADMAJOR" id="9A24F66E-7394-0D6F-9856-7F10B74FADFB">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:34:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[UNDERGRAD MAJOR]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STYPE" id="6E81FD79-66BE-DA5E-C96F-051B8093C565">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:54:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[U G]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A21AB202-36DF-1220-401B-7FB70FFABE5D" name="STUDENT PK">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:26:29 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>780B1252-DF92-93C7-BC11-1C79178F7348</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A765B1A1-FB5B-28C6-C22C-966CD2A32B0B" name="PERSON">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:10:29 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>C6642F63-F96A-A7B5-1820-D81F62B880E4</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PERSONID" id="92423187-183C-0097-EAEB-A2143C2CD7A2">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:11:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[UNIQUE PERSON ID]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PFNAME" id="85C56358-A5EF-F1BD-C734-BDC1B20A1A32">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:12:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[FIRST NAME]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLNAME" id="CEA390E7-0CB7-2956-364B-8B4A62DC8431">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:13:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[LASTNAME]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STREET" id="2BD37BEF-8F11-B77B-6554-B30FAAAD1861">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:13:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[STREET NUMBER]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="39542AFE-A164-281B-505E-632E701A71BA">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:14:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[CITY]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="0E2042D6-C3CF-6CBA-8470-00774A897632">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:15:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[SATE OF THE PERSON]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIPCODE" id="0CD1405F-F7B9-436F-35F8-FA29CFAC6A7D">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:15:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[ZIPCODE]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PEMAIL" id="B3A00F87-EB93-EC72-8410-A0F5EECA1A3D">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:16:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[EMAIL]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DOB" id="24534001-7CEF-680F-DAC3-39A6A051BD1D">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:16:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[DATE OF BIRTH]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENDER" id="EC00ED4D-DF49-CE10-0FED-41F9F463C4E7">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:17:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[GENDER]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTACTNO" id="BB085533-160B-A2B4-4F16-24591A57BD43">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:18:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[CONTACT NUMBER]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SSN" id="E8D86717-65E0-E865-F099-614F2741BFDF">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:18:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[SSN]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PTYPE" id="C6642F63-F96A-A7B5-1820-D81F62B880E4">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:41:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[S E A]]></commentInRDBMS>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C9F3FA88-B8E3-91DF-9B6C-7129196320C2" name="PERSON PK">
+<createdBy>chiragchopra</createdBy>
+<createdTime>2024-03-16 01:12:03 UTC</createdTime>
+<ownerDesignName>ANS2</ownerDesignName>
+<engineerTo>
+<item key="63BDB6F2-0C54-5317-538E-7F24C2ACF535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92423187-183C-0097-EAEB-A2143C2CD7A2</attributeRef>
+<attributeRef>C6642F63-F96A-A7B5-1820-D81F62B880E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
